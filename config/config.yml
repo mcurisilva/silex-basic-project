@@ -1,0 +1,9 @@
+app:
+  debug: true
+
+database:
+  driver: pdo_mysql
+  host: <HOST>
+  dbname: <DBNAME>
+  user: <USER>
+  password: <PASSWORD>

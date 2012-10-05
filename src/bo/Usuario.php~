@@ -1,0 +1,15 @@
+<?php
+
+namespace bo;
+
+class Usuario extends \bo\Bo {
+
+  public function __construct(\Silex\Application $app) {
+    $this->app = $app;
+  }
+
+  public function listar() {
+    return \dao\Usuario::listar();
+  }
+
+}

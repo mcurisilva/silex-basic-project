@@ -1,0 +1,9 @@
+routings:
+  index:
+    method: get
+    url: /
+    class: \controller\Controller::index
+  usuarios:
+    method: get
+    url: /usuarios
+    class: \controller\Controller::usuarios

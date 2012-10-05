@@ -1,0 +1,11 @@
+<?php
+
+
+namespace bo;
+
+
+class Bo {
+
+  protected $app;
+
+}
