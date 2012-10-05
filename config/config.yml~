@@ -1,9 +1,0 @@
-app:
-  debug: true
-
-database:
-  driver: pdo_mysql
-  host: localhost
-  dbname: teste
-  user: root
-  password: root
