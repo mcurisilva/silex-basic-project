@@ -1,4 +1,16 @@
 {
+    "name": "mcurisilva/silex-basic-project",
+    "type": "library",
+    "description": "A basic projet with Silex micro-framework",
+    "keywords": ["framework","silex"],
+    "homepage": "http://github.com/mcurisilva/silex-basic-project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Curi da Silva",
+            "email": "mcurisilva@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
         "silex/silex": "1.0.*",
