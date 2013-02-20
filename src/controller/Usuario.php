@@ -2,15 +2,15 @@
 
 namespace controller;
 
-class Usuario extends \controller\Controller {
+class Usuario extends \controller\Controller 
+{
 
-  public function usuarios(\Silex\Application $app) {
-    $usuarios = \bo\Usuario::listar();
+    public function usuarios(\Silex\Application $app) 
+    {
+        $usuarios = \bo\Usuario::listar();
 
-    $retorno = '';
-    foreach ($usuarios as $usuario)
-      $retorno .=  "<h1>{$usuario['nome']}</h1>";
+        return $app['twig']->render('lista_usuario.twig', array('usuarios'=>$usuarios));
+    }
 
-    include APP_VIEW_PATH.'/lista_usuario.php';
-  }
 }
+

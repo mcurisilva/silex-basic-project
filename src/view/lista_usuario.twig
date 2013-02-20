@@ -1,0 +1,9 @@
+{% extends "template.html.twig" %}
+
+{% block content %}
+    <ul>
+        {% for usuario in usuarios %}
+            <li>{{ usuario.nome }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
