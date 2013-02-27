@@ -35,7 +35,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
 
 //configuração do twig
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => APP_VIEW_PATH, 'twig.templates' => array('template.html.twig')
+    'twig.path' => APP_VIEW_PATH
 ));
 
 //atribui a app ao dao e bo
