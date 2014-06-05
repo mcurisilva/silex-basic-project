@@ -11,7 +11,7 @@
             "email": "mcurisilva@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {
         "silex/silex": "1.0.*",
         "doctrine/dbal": "2.2.*",
